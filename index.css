@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .socials{
+        @apply lg:w-3/4 sm:w-[160px] w-[600px]
+}
+
+   .whyuscards_lg{
+    @apply rounded-2xl bg-white w-[380px] h-[370px] shadow-2xl flex flex-col space-y-3 px-8 py-6
+   }
+
+   .whyuscards_lg1{
+    @apply font-manrope font-semibold text-lg text-[#5A5D5C] pr-2
+   }
+
+   .whyuscards_lg2{
+    @apply font-manrope text-[#1E455A] font-bold text-lg pt-6
+   }
+
+   .whyuscards_lg3{
+    @apply font-manrope font-semibold text-xl pt-4
+   }
+
+   .whyuscards_sm{
+    @apply rounded-2xl bg-white w-[340px] h-[340px] shadow-2xl flex flex-col space-y-3 px-8 py-6 ml-4 mb-28
+   }
+
+   .whyuscards_sm1{
+    @apply font-manrope font-semibold text-xl
+   }
+
+   .whyuscards_sm2{
+    @apply font-manrope font-medium text-base text-[#5A5D5C]
+   }
+
+   .features2{
+    @apply lg:text-lg font-manrope text-[#5F6365] font-[400px] lg:block hidden
+   }
+
+   .features1{
+    @apply sm:text-sm font-manrope text-[#5F6365] font-[400px] sm:block hidden lg:hidden
+   }
+
+   .testimonialscards{
+    @apply w-[400px] h-[200px] bg-[#F9FAFA] rounded-xl flex space-x-7 px-8 py-8 justify-center border-2 border-solid border-gray-200
+   }
+
+   .testimonialscards_2{
+    @apply font-manrope text-sm text-[#5F6365]
+   }
+
+   .testimonialscards_1{
+    @apply font-manrope font-semibold text-sm
+   }
+
+   .testimonialscards_mb{
+    @apply rounded-2xl bg-white w-[350px] h-[370px] shadow-2xl drop-shadow-lg flex flex-col space-y-3 px-8 py-6 ml-3 mb-20
+   }
+
+   .testimonialscards_mb_1{
+    @apply font-manrope font-semibold text-lg text-[#5A5D5C] pr-2
+   }
+
+   .testimonialscards_mb_2{
+    @apply font-manrope text-[#1E455A] font-bold text-lg pt-6
+   }
+
+   .blogs_grad{
+    @apply absolute inset-0 bg-gradient-to-b from-black to-black opacity-40 z-0 rounded-2xl
+   }
+
+   .blogs_cover{
+    @apply lg:w-2/6 sm:w-3/6 aspect-square relative
+   }
+
+   .blogs_img{
+    @apply object-cover w-full h-full rounded-2xl
+   }
+
+   .blogs_text4{
+    @apply text-white font-normal text-sm
+   }
+
+   .blogs_mb_text2{
+    @apply text-white font-normal text-[8px]
+   }
+
+   .blogs_mb_text1{
+    @apply text-white font-light text-[10px]
+   }
+
+   .footer_lists{
+    @apply font-manrope lg:text-lg sm:text-[15px] text-[10px] text-white font-[200] opacity-75
+   }
+
+   .footer_headings{
+    @apply font-manrope lg:text-lg sm:text-[15px] text-[10px] text-white font-semibold
+   }
+
+   .footer_1{
+    @apply sm:space-y-4 space-y-2
+   }
+
+
+   
+   
+   
+   
+
+}
