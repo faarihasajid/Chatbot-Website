@@ -536,7 +536,7 @@ const Hero = () => {
             </span>
 
             <section className='flex justify-center items-center'>
-                <button className='sm:mt-14 mt-10 sm:mb-0 mb-32 rounded-[40px] font-bold font-manrope bg-[#229B55] text-xs px-1 w-[150px] h-[50px]'>
+                <button className='sm:mt-14 mt-10  lg:mb-14 sm:mb-8 mb-32 rounded-[40px] font-bold font-manrope bg-[#229B55] text-xs px-1 w-[150px] h-[50px]'>
                 Take Action Now
                 </button>
             </section>
